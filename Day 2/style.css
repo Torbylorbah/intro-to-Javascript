@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/rose-165819__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid goldenrod ;
+    width: 70%;
+    text-align: center;
+    color: aquamarine;
+}
