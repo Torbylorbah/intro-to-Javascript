@@ -34,3 +34,12 @@ let myDisplay = document.getElementsByTagName('input');
 for( let i = 0; i < myDisplay.length; i++) {
     console.log(myDisplay[i].value)
 }
+function validateForm(){
+    let x = document.forms["myForm"]["name"]. value
+   if (x === ""){
+    console.log("please fill out this field")
+    return false
+   }
+    
+
+}

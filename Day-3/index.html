@@ -9,21 +9,25 @@
 </head>
 <body>
     <h1>DAY THREE WITH <span>OLAMILEKAN</span></h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, accusamus quos.<br>
-         Repellendus laudantium id quasi, facere consectetur optio minus fuga maxime molestias<br>
-         perferendis exercitationem repudiandae saepe <br>dolorum nemo modi quae deleniti quaerat. Debitis, officia adipisci numquam est quas asperiores temporibus possimus<br>
-          facilis, deserunt maiores architecto laudantium, sint ab. Consequatur impedit porro maxime earum minima, ab, <br>sunt ducimus quibusdam culpa ut beatae exercitationem. Eius fuga unde, corrupti provident maxime id doloribus culpa porro placeat ea dolores nulla eveniet.<br> Similique quia quod, odio enim velit quidem explicabo, voluptatem magni quibusdam harum distinctio.</p>
-    <form action="">
-        <input type="text" placeholder="Enter your name" class="name" value="Jalalat">
-        <input type="email" placeholder="Enter your email" class="email" value="Jaybukky@gamil.com">
-        <input type="password" placeholder="Enter your password" class="password" value="1234">
-        <input type="radio" name="gender" value="female" id="female"><label for="gender">Female</label>
-        <input type="radio" name="gender" value="male" id="male"><label for="gender"> Male</label>
-
-
-
-
-    </form>
+        <div class="frm">
+            <form id="myForm">
+                <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter your name" class="name">
+                <label for="email">Email Address:</Address></label>
+                    <input type="email" placeholder="Enter your email" class="email" value="Jaybukky@gmail.com">
+                <label for="password">Password:</label>    
+                    <input type="password" placeholder="Enter your password" class="password" value="1234" required autofocus>
+                    <label for="gender">Gender:</label>
+                        <label for="gender">Female</label>
+                            <input type="radio" name="gender" value="female" id="female">
+                        <label for="gender"> Male</label>
+                            <input type="radio" name="gender" value="male" id="male">
+                            <input type="tel" name="phone" value="090-876-543-792" id="phoneN" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}">
+                        <label for="birthday">Birthday:</label>
+                            <input type="date" name="birthday" id="birthday">
+                        <input type="submit" id="submit">
+            </form>
+        </div>
     <script src="script.js"></script>
 
 </body>

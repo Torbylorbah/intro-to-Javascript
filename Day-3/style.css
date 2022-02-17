@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-size: 20px;
+}
 
 h1{
    text-align: center;
@@ -13,19 +16,28 @@ span{
     color: rgb(218, 24, 88);
     font-size: 30px;
 }
-p{
-    font-size: 15px;
-    line-height: ;
-}
 form{
-    padding: 20px;
-    width:350px ;
-    height: 500px;
+    padding: 10px;
+    width: 400px;
+    height: 600px;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    border-radius: 1%;
+    box-shadow: 3px 3px 3px 3px #888888;
+    outline: none;
+    padding: 20px;
+    
 }
 input{
-    padding: 15px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+input:hover{
+    background-color: rgba(83, 83, 34, 0.089);
+}
+.frm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
